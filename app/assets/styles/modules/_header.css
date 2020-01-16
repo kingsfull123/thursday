@@ -11,9 +11,27 @@
 
     &__title {
         color: $mainBlue;
+        font-size: 1rem;
+
+        @mixin atSmall {
+            font-size: 1.8rem;
+        }
+
+        @mixin atMedium {
+            font-size: 3rem;
+        }
     }
 
     &__subtitle {
         color: $mainBlue;
+        font-size: .8rem;
+
+        @mixin atSmall {
+            font-size: 1rem;
+        }
+
+        @mixin atMedium {
+            font-size: 2.3rem;
+        }
     }
 }

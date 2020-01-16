@@ -2,6 +2,7 @@
     background-color: $mainButton;
     padding: 10px 25px;
     text-decoration: none;
+    color: $normal;
 
     &--large {
         padding: 15px 38px;
