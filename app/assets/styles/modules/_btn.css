@@ -1,0 +1,13 @@
+.btn {
+    background-color: $mainButton;
+    padding: 10px 25px;
+    text-decoration: none;
+
+    &--large {
+        padding: 15px 38px;
+    }
+
+    &--orange {
+        background-color: $mainOrange;
+    }
+}
