@@ -9,9 +9,15 @@
   <body>
     <div class="header">
       <picture>
-          <source srcset='./assets/images/bg--large.jpg' media='(min-width:800px)'>
-          <source srcset='./assets/images/bg--medium.jpg' media='(min-width:375px)'>
-          <img src="./assets/images/bg--small.jpg" alt="lighthouse">
+        <source
+          srcset="./assets/images/bg--large.jpg"
+          media="(min-width:800px)"
+        />
+        <source
+          srcset="./assets/images/bg--medium.jpg"
+          media="(min-width:375px)"
+        />
+        <img src="./assets/images/bg--small.jpg" alt="lighthouse" />
       </picture>
       <div class="header__container">
         <h1 class="header__title">European Heritage</h1>
@@ -19,6 +25,18 @@
         <p><a href="#" class="btn btn--large btn-orange">Find out more</a></p>
       </div>
     </div>
-    <script src='./bundled.js'></script>
+    <div id="our-orgnization">
+      <h1 class="header">Mont Saint-Michel Abbey</h1>
+      <h4 class="header">
+        The church looms over the small surrounding village on an isolated
+        island off the coast of France's Normandy region.
+      </h4>
+      <picture>
+          <source srcset='./assets/images/our-orgnization--large.jpg' media='(min-width:1185px)'>
+          <source srcset='./assets/images/our-orgnization--medium.jpg' media='(min-width:800px)'>
+          <img src="./assets/images/our-orgnization--small.jpg" alt="church">
+      </picture>
+    </div>
+    <script src="./bundled.js"></script>
   </body>
 </html>
